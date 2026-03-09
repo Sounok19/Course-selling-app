@@ -101,7 +101,7 @@ userRouter.post("/signin",async function(req,res){
     }
     else{
         res.status(403).json({
-            messagr:"Incorrect credentials"
+            message:"Incorrect credentials"
         })
     }
  })
